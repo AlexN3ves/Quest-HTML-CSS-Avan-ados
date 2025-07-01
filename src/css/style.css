@@ -60,18 +60,23 @@ body {
     padding: 0 60px 40px;
     justify-content: flex-end;
     align-items: center;
-    gap: 15px;
 }
 
-.footer a {
-    color: white;
+.footer ul {
+    display: flex;
+    gap: 15px;
+
+}
+
+.footer ul li {
     border: 1px solid white;
     border-radius: 50%;
     padding: 10px;
     text-align: center;
 }
 
-.footer a i {
+.footer ul li a i {
+    color: white;
     width: 20px;
     height: 20px;
     font-size: 20px;
@@ -96,11 +101,12 @@ body {
     }
 }
 
-@media (max-width:425px){
-    .main-container .informations-container h1{
+@media (max-width:425px) {
+    .main-container .informations-container h1 {
         font-size: 4.5rem;
     }
-    .main-container .informations-container p{
+
+    .main-container .informations-container p {
         font-size: 2rem;
     }
 }
